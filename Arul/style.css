@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: 'Abril Fatface', sans-serif;
+}
+
+body {
+    flex-wrap: nowrap;
+}
+
+.menu {
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(40, 38, 38, 0.6),rgba(40, 38, 38, 0.6)),url(Background.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo {
+    color: whitesmoke;
+    position: fixed;
+    height: 60px;
+    width: 60px;
+    top: 60px;
+    left: 80px;
+    transition: all 0.5s ease 0s;
+}
+
+.hamburger {
+    float: right;
+    height: 18px;
+    width: 48px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s ease 0s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    font-weight: bold;
+    transition: all 0.5s ease 0s;
+}
+
+.menulogo {
+    background-color: whitesmoke;
+    width: 48px;
+    height: 5px;
+    top: 81px;
+    left: 1306px;
+    border-radius: 12px;
+}
+
+.content {
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.content h2 {
+    font-size: 26px;
+    font-weight: 400;
+    line-height: 24.97px;
+    margin-bottom: 20px;
+}
+
+.content h1 {
+    font-size: 54px;
+    font-weight: 400;
+    line-height: 72.85px;
+}
+
+.content button {
+    margin-top: 40px;
+    width: 158px;
+    height: 53px;
+    top: 489px;
+    left: 641px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    gap: 10px;
+    padding: 20px,40px,20px,40px;
+}
+
+button {
+    background-color: transparent;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: whitesmoke;
+    color: black;
+    transition: all 0.5s ease 0s;
+}
+
+button:active {
+    background-color: whitesmoke;
+    color: black;
+}
